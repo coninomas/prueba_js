@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-image: url("../imgs/fondo.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 100px;
+}
+
+/* Formulario */
+
+#preview {
+  width: 80%;
+  max-width: 100px;
+  object-position: top;
+  object-fit: cover;
+  margin: auto;
+  display: block;
+}
+
+/* Tabla de Participantes */
+
+#Tabla {
+  max-width: 800px;
+  height: 500px;
+}
+
+#Animales {
+  height: 100%;
+  max-height: 430px;
+  overflow-y: auto;
+  background: #f0f0f0;
+}
+
+#Animales div div {
+  transition: all 200ms;
+}
+
+.participante {
+  max-width: 30%;
+}
+
+#comentarios {
+  resize: none;
+}
+
+/* Modal */
+
+.modal-body {
+  color: white;
+  text-align: center;
+}
+
+.modal-body img {
+  width: 70%;
+  max-width: 300px;
+  object-fit: cover;
+  margin: auto;
+  display: block;
+}
+
+.animal_insertado {
+  width: 100px;
+  position: relative;
+  height: fit-content;
+}
+
+.animal_insertado img {
+  object-fit: cover;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.animal_insertado button {
+  width: 100%;
+  background-color: #eee;
+  border: 0;
+}
+
+.contenedor_animales {
+  gap: 10px;
+  display: flex;
+  justify-items: center;
+}
